@@ -18,7 +18,7 @@ header .header-bar {
 }
 
 header .row {
-  background-image: url(../img/background6.JPG);
+  background-image: url(./img/background6.JPG);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
