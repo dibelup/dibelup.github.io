@@ -1,0 +1,144 @@
+.menu {
+  height: 50px;
+  width: 100%;
+  margin: 0;
+}
+
+.navbar-brand img {
+  max-height: 70px;
+}
+
+header {
+  margin-top: 76px;
+}
+
+header .header-bar {
+  max-height: 70vh;
+  min-height: 70vh;
+}
+
+header .row {
+  background-image: url(../img/background6.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  max-width: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+}
+
+header .header-gauche {
+  min-height: 70vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+header .slogan {
+  font-family: "Dancing Script", cursive;
+  font-size: 36px;
+  margin-left: 30%;
+  margin-bottom: 100px;
+  color: azure;
+  background-color: rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+}
+
+header .nom {
+  margin-left: 50px;
+  margin-bottom: 50px;
+  font-family: "Sriracha", cursive;
+  color: #e1dddd;
+  font-size: 56px;
+  padding-top: 10px;
+}
+
+header .header-droit {
+  background-color: rgba(0, 0, 0, 0.2);
+  min-height: 80vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+@media (max-width: 700px) {
+  header .header-droit {
+    display: none;
+  }
+}
+
+#services .media span {
+  color: goldenrod;
+  font-size: 2rem;
+}
+
+#services .media {
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease-in-out;
+  border-radius: 5px;
+}
+
+#services .media:hover {
+  background-color: #6c757d47;
+}
+
+#contacts {
+  background-image: url(../img/background8.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: calc(100vh - 76px);
+}
+
+#contacts .contacts-row {
+  min-height: calc(100vh - 76px);
+}
+
+.infos {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 2rem 1rem;
+  border-radius: 50px;
+}
+
+#contacts .media {
+  color: darkslategrey;
+  font-size: 1.5rem;
+  align-items: baseline;
+  margin-left: 15px;
+}
+
+#contacts .texte-info {
+  font-size: 32px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  color: darkslategrey;
+  font-size: 2rem;
+}
+
+#contacts .texte-info a {
+  color: darkslategrey;
+}
+
+#contacts .contacts-title {
+  font-size: 48px;
+  font-weight: bold;
+  color: darkslategrey;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: grey;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+footer a {
+  color: grey;
+  font-size: 2rem;
+  transition: all 0.2s ease-in-out;
+  padding-right: 3px;
+}
+
+footer a:hover {
+  color: #fff;
+  font-size: 2rem;
+  text-decoration: none;
+}
