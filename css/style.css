@@ -18,7 +18,7 @@ header .header-bar {
 }
 
 header .row {
-  background-image: url(../img/background6.JPG);
+  background-image: url(../img/background-header.JPG);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -82,7 +82,7 @@ header .header-droit {
 }
 
 #contacts {
-  background-image: url(../img/background8.JPG);
+  background-image: url(../img/background-contacts.JPG);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -141,4 +141,13 @@ footer a:hover {
   color: #fff;
   font-size: 2rem;
   text-decoration: none;
+}
+
+#realisations {
+  min-height: calc(100vh - 76px);
+  margin-bottom: 20px;
+}
+
+#realisations .carouselRealisations {
+  max-height: 20%;
 }
