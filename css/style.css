@@ -36,20 +36,20 @@ header .header-gauche {
 header .slogan {
   font-family: "Dancing Script", cursive;
   font-size: 36px;
-  margin-left: 30%;
+  margin-left: 20px;
   margin-bottom: 100px;
   color: azure;
   background-color: rgba(0, 0, 0, 0.2);
   font-weight: bold;
 }
 
-header .nom {
+header .description {
   margin-left: 50px;
   margin-bottom: 50px;
   font-family: "Sriracha", cursive;
   color: #e1dddd;
-  font-size: 56px;
-  padding-top: 10px;
+  font-size: 32px;
+  padding-top: 20px;
 }
 
 header .header-droit {
