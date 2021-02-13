@@ -29,35 +29,34 @@ header .row {
 header .header-gauche {
   min-height: 70vh;
   display: flex;
-  align-items: flex-end;
-  justify-content: flex-start;
-}
-
-header .slogan {
-  font-family: "Dancing Script", cursive;
-  font-size: 36px;
-  margin-left: 20px;
-  margin-bottom: 100px;
-  color: azure;
-  background-color: rgba(0, 0, 0, 0.2);
-  font-weight: bold;
-}
-
-header .description {
-  margin-left: 50px;
-  margin-bottom: 50px;
-  font-family: "Sriracha", cursive;
-  color: #e1dddd;
-  font-size: 32px;
-  padding-top: 20px;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 header .header-droit {
   background-color: rgba(0, 0, 0, 0.2);
   min-height: 80vh;
   display: flex;
-  align-items: flex-start;
+  align-items: flex-end;
   justify-content: flex-end;
+}
+
+header .slogan {
+  font-family: "Dancing Script", cursive;
+  margin-left: 50px;
+  margin-bottom: 200px;
+  font-size: 32px;
+  padding-top: 20px;
+  color: azure;
+  font-weight: bold;
+}
+
+header .description {
+  font-size: 36px;
+  padding-top: 30px;
+  margin-bottom: 100px;
+  font-family: "Sriracha", cursive;
+  color: darkslategrey;
 }
 
 @media (max-width: 700px) {
@@ -91,6 +90,9 @@ header .header-droit {
 
 #contacts .contacts-row {
   min-height: calc(100vh - 76px);
+  width: 75%;
+  margin-left: 10%;
+  max-width: 400px;
 }
 
 .infos {
@@ -144,7 +146,7 @@ footer a:hover {
 }
 
 #realisations {
-  min-height: calc(100vh - 76px);
+  min-height: calc(70vh - 76px);
   margin-bottom: 20px;
 }
 
