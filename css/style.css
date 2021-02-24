@@ -5,7 +5,7 @@
 }
 
 .navbar-brand img {
-  max-height: 40px;
+  max-height: 50px;
 }
 
 header {
@@ -44,7 +44,7 @@ header .header-droit {
 header .slogan {
   font-family: "Dancing Script", cursive;
   margin-left: 50px;
-  margin-bottom: 200px;
+  margin-bottom: 220px;
   font-size: 32px;
   padding-top: 20px;
   color: azure;
